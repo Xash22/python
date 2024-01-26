@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicar session</title>
+    <link rel="stylesheet" href="/static/iniciar_session.css">
+  </head>
+<body>	
+	<div class="contact_form">
+    <div class="formulario">			
+    <h1>Iniciar session</h1>
+        <form action="submeter-formulario.php" method="post">
+	    <label for="email" class="colocar_email">Email <span class="obligatorio">*</span></label>
+	        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Email">
+    </p>
+						
+	<p>
+		<label for="telefone" class="colocar_telefono">Nombre de Usuario <span class="obligatorio">*</span></label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Teléfono">
+		</p>							
+	<p>
+		<label for="asunto" class="colocar_asunto">Contraseña<span class="obligatorio">*</span>
+			</label>
+			<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Contraseña">
+								</p>  								
+							
+		<button type="submit" name="enviar_formulario" id="enviar"><a href="gracias.html">Enviar</a> </button>
+
+		<p class="aviso">
+		<span class="obligatorio"> * </span>los campos son obligatorios.
+			</p>					
+						
+		</form>
+		</div>	
+	</div>
+
+</body>
+</html>

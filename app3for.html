@@ -1,0 +1,13 @@
+{% extends "pag.html" %}
+
+{% block contenido %}
+
+<h3>introduzca sus datos: </h3>
+
+<form action="{{url_for('app2.html')}}">
+ Nombre: <input type="text" name ="nombre">
+ <br>
+ Apellido: <input type="text" name="apellidos">
+ <br>
+ <input type="submit" value="Enviar datos">
+</form>

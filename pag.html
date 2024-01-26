@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro sitio web</title>
+</head>
+<body>
+ 
+    <div>
+
+        <a href="{{ url_for('pagina3') }}"> Inicio</a><!---Enlace de la pagina 3-->
+        <a href="{{ url_for('pagina4') }}"> contacto</a><!---Enlace de la pagina 4-->
+        
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+   
+
+<h3>introduzca sus datos: </h3>
+
+<form action="{{url_for('app2.html')}}">
+ Nombre: <input type="text" name ="nombre">
+ <br>
+ Apellido: <input type="text" name="apellidos">
+ <br>
+ <input type="submit" value="Enviar datos">
+</form>
+
+
+<br>
+<br> 
+<br>
+<hr>
+<br>
+
+    <h5>Esto es un pie de pagina</h5>
+
+</body>
+</html>

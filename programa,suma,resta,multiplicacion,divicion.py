@@ -1,0 +1,8 @@
+print ("resta")
+print (10-2)
+print ("multiplicacion")
+print (6*5)
+print ("division")
+print (20//2)
+print ("suma")
+print (2+4)
